@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Not Found</title>
+</head>
+<body>
+    <script>
+      if (window.location.href.endsWith('/.well-known/apple-app-site-association')) {
+        window.location.href = '/.well-known/apple-app-site-association.json';
+      } else {
+        document.write('Page not found. Return to <a href="/">homepage</a>.');
+      }
+    </script>
+</body>
+</html>
